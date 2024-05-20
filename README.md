@@ -1,75 +1,55 @@
-# disease_prediction_web_app
-Multiple Disease Prediction Web App & Docker Container
-License
+# sundown-studio-website-clone
 
-This project utilizes StreamLit and Docker to create an interactive web application for predicting various diseases. This project includes prediction models for diabetes, Parkinson's disease, heart disease, and breast cancer.
+This project is a replica of the Sundown Studio website, created to showcase my front-end development skills. The Sundown Studio website is a platform for showcasing photography portfolios and selling prints.
 
-Table of Contents
-About
-Installation
-Models
-License
-About
-This web app provides a user-friendly interface to predict multiple diseases based on various input features. The machine learning models used in this application are trained on relevant datasets to make accurate predictions.
+## Project Overview
 
-The diseases currently supported by this web app include:
+The Sundown Studio website clone project aims to replicate the main features and design elements of the original website. It includes:
 
-Diabetes
-Parkinson's disease
-Heart disease
-Breast cancer
-Web App
-Access the Web App - Use the web app to predict multiple diseases.
-Installation
-Clone the repository:
+- Homepage featuring a hero section with stunning photography
+- Portfolio section displaying various photography collections
+- About page providing information about the studio and its photographers
+- Contact page with a form for inquiries and feedback
 
-git clone https://github.com/s-h-i-v-i-s/disease_prediction_web_app
-Install the required dependencies:
+## Technologies Used
 
-pip install -r requirements.txt
-Navigate to the project directory:
+This project utilizes the following technologies:
 
-cd plant-disease-prediction
-Create a virtual environment:
+- HTML5 for the structure and content of the web pages
+- CSS3 for styling and layout design
+- JavaScript for interactive elements and dynamic content 
+- GSAP (GreenSock Animation Platform) for smooth animations
+- Swiper for responsive sliders and carousels for websites.
+## Setup Instructions
 
-python -m venv venv
-Activate the virtual environment(You will have to create a virtual environment for the project):
+To run this project locally, follow these steps:
 
-On Windows:
+1. Clone this repository to your local machine.
+2. Open the project directory in your preferred code editor.
+3. Open the `index.html` file in a web browser to view the homepage.
+4. Explore other pages by navigating through the links.
 
-venv\Scripts\activate
-Install the required dependencies:
+## Explore GSAP (GreenSock Animation Platform)
 
-pip install -r requirements.txt
-Usage for StreamLit
-Run the web app:
+GSAP is a powerful JavaScript animation library that allows you to create smooth and captivating animations for your web projects. To get started with GSAP:
 
-streamlit run app.py
-Open your web browser and go to http://localhost:8080 to access the web app.
+1. Visit the [GSAP website](https://greensock.com/gsap/) to learn about its features and capabilities.
+2. Explore the documentation and tutorials to understand how to use GSAP for animations.
+3. Experiment with GSAP in this project by adding animations to enhance user experience and engagement.
+4. ## Master Hosting
 
-Select the disease prediction page you want to use and provide the required input features.
+Hosting your website is essential to make it accessible to the world. To master hosting:
 
-Click on the Test Result button to generate the prediction result.
+1. Research different hosting providers and select one that suits your needs and budget.
+2. Learn about domain registration and choose a memorable domain name for your website.
+3. Follow hosting provider's instructions to upload your website files and configure settings.
+4. Test your hosted website to ensure everything works smoothly and is accessible to visitors.
 
-Usage with Docker
-Build the Docker image:
+## Credits
 
-docker build -t medipredict:v1.0 .
-Run the Docker container:
+This project was created by Shubhy raj. It is inspired by the original Sundown Studio website. All photography used in this clone project is for demonstration purposes only and belongs to their respective owners.
 
-docker run -p 80 medipredict:v1.0
-Access the application in your browser at http://localhost:8080.
+## Feedback and Contributions
 
-Models
-The machine learning models used in this web app are trained on publicly available datasets specific to each disease. Here is a brief description of each model:
+Feedback and contributions are welcome! If you have suggestions for improvements or would like to contribute to this project, please [contact me] (mehtashubhraj@gmail.com).
 
-Diabetes Model: This model predicts the likelihood of a person having diabetes based on input features such as glucose level, blood pressure, BMI, etc.
-
-Parkinson's Disease Model: This model predicts the presence of Parkinson's disease in a person based on features extracted from voice recordings.
-
-Heart Disease Model: This model predicts the presence of heart disease based on various clinical and demographic features of a person.
-
-Breast Cancer Model: This model predicts whether a breast mass is malignant or benign using features derived from breast cytology.
-
-License
-This project is licensed under the MIT License. 
